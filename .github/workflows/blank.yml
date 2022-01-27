@@ -34,3 +34,6 @@ jobs:
         run: |
           cd .github/workflows
           echo hello world > test.txt
+          git add .
+          git commit -m "update coverage.py"
+          git push
